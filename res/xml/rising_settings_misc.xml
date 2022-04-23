@@ -149,6 +149,13 @@
          android:defaultValue="false"
          app:position="middle" />
 
+    <com.rising.settings.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/miscellaneous_app_downgrade_title"
+        android:summary="@string/miscellaneous_app_downgrade_summary"
+        app:position="middle"
+        android:defaultValue="false" />
+
     <!-- Unlimit screenrecord -->
     <com.rising.settings.preferences.SystemSettingSwitchPreference
         android:key="unlimit_screenrecord"
