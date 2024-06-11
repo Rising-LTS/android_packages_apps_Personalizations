@@ -1690,4 +1690,8 @@
     <string name="keybox_file_loaded">XML file loaded</string>
     <string name="keybox_file_read_failed">Failed to read XML</string>
 
+    <!-- Unlimit screenrecord -->
+    <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
+
 </resources>

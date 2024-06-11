@@ -149,6 +149,14 @@
          android:defaultValue="false"
          app:position="middle" />
 
+    <!-- Unlimit screenrecord -->
+    <com.rising.settings.preferences.SystemSettingSwitchPreference
+        android:key="unlimit_screenrecord"
+        android:title="@string/miscellaneous_unlimit_screenrecord_title"
+        android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
+        app:position="middle"
+        android:defaultValue="false" />
+
     <!-- Three-fingers-swipe to screenshot -->
     <com.rising.settings.preferences.SystemSettingSwitchPreference
         android:key="swipe_to_screenshot"
